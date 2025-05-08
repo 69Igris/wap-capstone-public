@@ -23,7 +23,18 @@ h3 {
     color: #e63946;
     border-bottom: 3px solid #e63946;
 }
-
+.story{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.story p{
+    font-size: 18px;
+}
+.story h2{
+    font-size: 32px;
+}
 .our-story {
     display: flex;
     flex-direction: column;
