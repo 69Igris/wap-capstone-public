@@ -46,19 +46,19 @@ const About = () => {
         <div className="team">
           <div>
             <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Michael Thompson" />
-            <h3>Michael Thompson</h3>
+            <h3 className='num'>Michael Thompson</h3>
             <p className="highlight">Co-Founder & CEO</p>
             <p>Sneaker collector for over 15 years with expertise in rare and vintage models.</p>
           </div>
           <div>
             <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Sarah Johnson" />
-            <h3>Sarah Johnson</h3>
+            <h3 className='num'>Sarah Johnson</h3>
             <p className="highlight">Co-Founder & Creative Director</p>
             <p>Former fashion designer with an eye for trends and emerging styles.</p>
           </div>
           <div>
             <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="James Wilson" />
-            <h3>James Wilson</h3>
+            <h3 className='num'>James Wilson</h3>
             <p className="highlight">Co-Founder & Head of Operations</p>
             <p>Tech expert who built our authentication and inventory systems.</p>
           </div>
