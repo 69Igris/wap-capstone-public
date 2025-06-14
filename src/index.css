@@ -66,6 +66,7 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 } */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
 
 * {
@@ -75,8 +76,7 @@ button:focus-visible {
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
-  color: var(--navy);
+  /* font-family: "Outfit", sans-serif;  */
   background-color: #fff;
   overflow-x: hidden;
 }
