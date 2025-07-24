@@ -7,7 +7,6 @@
   font-family: "Outfit", sans-serif;
 }
 
-/* NAVBAR CONTAINER */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -20,9 +19,8 @@
   z-index: 1000;
 }
 
-/* LOGO */
 .nav-logo {
-  font-size: 22px; /* Slightly smaller logo text */
+  font-size: 22px;
   font-weight: 700;
   color: var(--purple);
   text-decoration: none;
@@ -30,7 +28,6 @@
   align-items: center;
 }
 
-/* NAVIGATION LINKS */
 .nav-links {
   display: flex;
   align-items: center;
@@ -53,7 +50,6 @@
   text-decoration: underline;
 }
 
-/* LOGIN + SIGNUP BUTTONS */
 .btn {
   display: inline-block;
   padding: 12px 26px;
@@ -91,7 +87,6 @@
   box-shadow: 0 4px 12px rgba(11, 19, 43, 0.2);
 }
 
-/* RESPONSIVE: STACKED NAV FOR MOBILE */
 @media (max-width: 768px) {
   .navbar {
     flex-direction: column;
@@ -109,3 +104,67 @@
     margin-top: 10px;
   }
 }
+
+/* Hamburger button */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  gap: 5px;
+}
+
+.bar {
+  width: 25px;
+  height: 3px;
+  background-color: var(--purple);
+  transition: all 0.3s ease;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .hamburger {
+    display: flex;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+  }
+
+  .nav-links,
+  .nav-login-signup {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    text-align: left;
+  }
+
+  .nav-links.open,
+  .nav-login-signup.open {
+    display: flex;
+  }
+
+  .nav-links {
+    gap: 10px;
+    margin-top: 20px;
+  }
+
+  .nav-login-signup {
+    gap: 10px;
+    margin-top: 10px;
+  }
+
+  .navbar {
+    align-items: flex-start;
+    position: relative;
+  }
+}
+
+.bar.open:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+.bar.open:nth-child(2) {
+  opacity: 0;
+}
+.bar.open:nth-child(3) {
+  transform: rotate(-45deg) translate(6px, -6px);
+}
+

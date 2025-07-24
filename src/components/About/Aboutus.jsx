@@ -1,6 +1,5 @@
 import React from 'react';
 import './Aboutus.css';
-import TeamCarousel from './TeamCarousel';
 const Aboutus = () => {
   return (
     <div className="about-container">

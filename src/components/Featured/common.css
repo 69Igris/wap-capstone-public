@@ -9,26 +9,8 @@ body {
 }
 
 
-/* Navbar Styles */
 
 
-.hamburger {
-  display: none;
-  flex-direction: column;
-  background: none;
-  border: none;
-  cursor: pointer;
-}
-
-.hamburger span {
-  width: 25px;
-  height: 3px;
-  background: #333;
-  margin: 3px 0;
-  transition: 0.3s;
-}
-
-/* Search Bar */
 .search-container {
   background: #f8f9fa;
   padding: 1rem 0;
@@ -63,7 +45,6 @@ body {
   background: #e03957;
 }
 
-/* Hero Section */
 .hero-section {
   background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
   padding: 4rem 0;
@@ -118,7 +99,6 @@ body {
   background: #015ba8;
 }
 
-/* Section Titles */
 .section-title {
   text-align: center;
   font-size: 2.5rem;
@@ -209,9 +189,6 @@ body {
 }
 
 
-
-
-/* Selling Points */
 .selling-points {
   padding: 4rem 0;
   background: #f8f9fa;
@@ -252,7 +229,6 @@ body {
   line-height: 1.8;
 }
 
-/* Testimonials */
 .testimonials {
   padding: 4rem 0;
 }
@@ -312,14 +288,6 @@ body {
 }
 
 
-
-
-
-
-
-/* About Page */
-
-
 .mission-vision-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -332,9 +300,6 @@ body {
 }
 
 
-
-
-/* Products Page */
 .products-page {
   min-height: 100vh;
 }
@@ -365,7 +330,6 @@ body {
   border-radius: 4px;
 }
 
-/* Product Grid */
 .product-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
@@ -443,9 +407,6 @@ body {
 }
 
 
-
-
-/* Mobile Responsive */
 @media (max-width: 768px) {
   .hamburger {
     display: flex;
@@ -608,7 +569,6 @@ body {
 }
 
 
-/* FAQ */
 .faq-section {
   margin: 3rem 0;
   font-family: 'outfit';
@@ -658,7 +618,6 @@ body {
 }
 
 
-/* Newsletter */
 .newsletter-section {
   background: #f8f9fa;
   padding: 3rem 0;
@@ -702,7 +661,6 @@ body {
   background: #e03957;
 }
 
-/* Mobile Responsive */
 @media (max-width: 768px) {
   .hamburger {
     display: flex;
