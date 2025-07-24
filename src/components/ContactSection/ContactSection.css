@@ -1,0 +1,103 @@
+.contact-contain {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 60px;
+  border-radius: 12px;
+  color: #fff;
+  margin: 40px auto;
+  width: 100;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://www.superkicks.in/cdn/shop/files/BL-2_cb81a33b-9ab8-44bf-831b-15bece53f3f0.jpg?v=1736504973&width=1500");
+  background-size: cover;
+  background-position: center;
+  margin-top: 10px;
+  margin: 10px;
+}
+
+.contact-container::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0, 0, 0, 0.6); 
+  z-index: 0;
+}
+
+.contact-left,
+.contact-right {
+  position: relative;
+  z-index: 2;
+}
+
+.contact-left {
+  flex: 1;
+  min-width: 300px;
+  margin-right: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contact-left h2 {
+  font-size: 2.8rem;
+  margin-bottom: 16px;
+  color: #fff;
+}
+
+.contact-left p {
+  font-size: 1.2rem;
+  color: #ddd;
+}
+
+.contact-right {
+  flex: 1;
+  min-width: 300px;
+  background-color: rgba(13, 15, 15, 0.85);
+  padding: 45px;
+  border-radius: 12px;
+
+}
+
+.contact-right h3 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.contact-right input,
+.contact-right textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 16px;
+  border-radius: 6px;
+  border: none;
+  font-size: 1rem;
+  font-family: "Outfit", sans-serif;
+}
+
+.contact-right textarea {
+  resize: vertical;
+}
+
+.contact-right button {
+  width: 100%;
+  padding: 14px;
+  background-color: #FF4365;
+  color: #fff;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+  font-family: "Outfit", sans-serif;}
+
+.contact-right button:hover {
+  background-color: #e03957;
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(255, 67, 101, 0.3);
+}
+
+

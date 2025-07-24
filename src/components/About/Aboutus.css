@@ -1,0 +1,142 @@
+.about-container {
+  padding: 2rem;
+  color: #1e1e2f;
+  max-width: 1200px;
+  margin: 0 auto;
+  font-size: 18px;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: bold;
+  color: #0a0a0a;
+  text-align: center;
+}
+
+.highlight {
+  color: #ff3b57;
+  padding-bottom: 10px;
+  border-bottom: 3px solid #ff3b57;
+  margin-bottom: 16px;
+}
+
+.story {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.story p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.story h2 {
+  font-size: 30px;
+  text-align: center;
+}
+
+.our-story {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+  gap: 2rem;
+  align-items: center;
+}
+
+.our-story img {
+  width: 300px;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+@media (min-width: 768px) {
+  .our-story {
+    flex-direction: row;
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .story {
+    align-items: flex-start;
+    text-align: left;
+  }
+}
+
+section {
+  margin-top: 4rem;
+}
+
+.values {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin-top: 2rem;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.values div {
+  flex: 1;
+  min-width: 200px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.values i {
+  font-size: 2.5rem;
+  color: #ff3b57;
+  margin-bottom: 1rem;
+}
+
+.team {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.team div {
+  flex: 1;
+  min-width: 250px;
+  max-width: 300px;
+  text-align: center;
+}
+
+.team img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 768px) {
+  .values,
+  .team {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .our-story {
+    text-align: center;
+  }
+
+  .story {
+    align-items: center;
+  }
+}
+
+.title {
+  margin-bottom: 24px !important;
+}
+
+.num {
+  margin-bottom: 6px;
+}
