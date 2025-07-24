@@ -5,6 +5,8 @@ import Home from './pages/Home'
 import About from './pages/About'
 import ProductsPage from './pages/ProductsPage'
 import Blog from './pages/Blog'
+import LoginPage from './components/LoginSignup/Login'
+import SignupPage from './components/LoginSignup/Signup'
 function App() {
   
   
@@ -18,6 +20,9 @@ function App() {
       <Route path='/about' element={<About/>}></Route>
       <Route path='/shop' element={<ProductsPage/>}></Route>
       <Route path='/blog' element={<Blog/>}></Route>
+      <Route path='/login' element={<LoginPage/>}></Route>
+      <Route path='/signup' element={<SignupPage/>}></Route>
+
 
 
     </Routes>
